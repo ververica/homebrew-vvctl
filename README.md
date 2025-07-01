@@ -1,4 +1,4 @@
-# VVCTl
+# Homebrew vvctl
 
 [vvctl](https://github.com/ververica/vvctl) is a CLI tool to interact with the
 Ververica products.
