@@ -1,9 +1,9 @@
 class Vvctl < Formula
-  version "2025.6.30"
+  version "2025.6.33"
   desc "CLI application for Ververica Platform"
   homepage "https://app.ververica.cloud/"
-  url "https://github.com/ververica/homebrew-vvctl/releases/download/2025.6.30/vvctl-2025.6.30-aarch64-apple-darwin.tar.gz"
-  sha256 "eb4f62da034820aaec410203dafa8e2b9565bf12ee6663de24f0a0ed33774334"
+  url "https://github.com/ververica/homebrew-vvctl/releases/download/2025.6.33/vvctl-2025.6.33-aarch64-apple-darwin.tar.gz"
+  sha256 "2f03bbd92f050265dedddbf7ec3607b659a01223a161d24c077ab278e17c95fe"
   license "Your-License"
 
   def install
