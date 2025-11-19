@@ -2,7 +2,7 @@ class Vvctl < Formula
   version "2025.7.10"
   desc "CLI application for Ververica Platform"
   homepage "https://app.ververica.cloud/"
-  license "Apache-2.0"
+  license "Copyright Ververica GmbH 2025"
 
   on_macos do
     if Hardware::CPU.arm?
