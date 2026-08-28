@@ -1,16 +1,16 @@
 class Vvctl < Formula
-  version "2026.4.2"
+  version "2026.8.1"
   desc "CLI application for Ververica Platform"
   homepage "https://app.ververica.cloud/"
   license "Copyright Ververica GmbH 2025"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ververica/homebrew-vvctl/releases/download/2026.4.2/vvctl-2026.4.2-aarch64-apple-darwin.tar.gz"
-      sha256 "054b1393bbf5a132abfc58bc4d46f0804f70975d6ab8e78fb07ede4c9ed3bd30"
+      url "https://github.com/ververica/homebrew-vvctl/releases/download/2026.8.1/vvctl-2026.8.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f9d7c63199e80fab0b35ccc0f013b4c860647ae1b28dc69b5519c4a4ba7d9474"
     else
-      url "https://github.com/ververica/homebrew-vvctl/releases/download/2026.4.2/vvctl-2026.4.2-x86_64-apple-darwin.tar.gz"
-      sha256 "5d4a1f489396fe33f0c37ff4df13fffc9072f06175e3962a9f466ca32a8ec5d9"
+      url "https://github.com/ververica/homebrew-vvctl/releases/download/2026.8.1/vvctl-2026.8.1-x86_64-apple-darwin.tar.gz"
+      sha256 "affe18d6656e5654e75a5bad28820e9dc0b2d212d20fb5c78a0aaff4a2bc65b6"
     end
   end
 
